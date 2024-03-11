@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sistematização
+  </title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+</head>
+
+	<!-- Professor, como eu fiz um site sobre serviços, fiquei confuso quanto as imagens, então decidi colocar imagens que 
+	representassem o serviço -->
+
+<body>
+  <div class="page">   
+    <nav>
+      <a id="logo" href="#">
+          <img src="images/logo inicial.png" alt="LOGO">
+      </a>
+      <ul>
+        <li><a href="#integrantes">Equipe</a></li>
+        <li><a href="#one">Serviço</a></li>
+        <li><a href="#form">Contato</a></li>
+      </ul>
+    </nav>
+
+    <main>       
+      <img src="images/img1.png" alt="Mulher ao lado de um notebook representando uma profissional de segurança da informação">
+      <section id="one">
+        <h1>Seus dados estão <span>protegidos</span>?</h1>
+        <p>A informação é fundamental e de <span>extrema importância</span> para qualquer <br> empresa.<br></p>
+        <p>
+			O serviço de proteção de dados é uma área fundamental em um mundo cada vez mais digitalizado. Ele envolve a implementação de medidas para <span>garantir</span> que as informações pessoais e confidenciais dos usuários, clientes ou funcionários sejam protegidas contra acessos não autorizados, uso indevido, roubo ou qualquer outra forma de violação de privacidade.</p>
+		<p>Contrate aqui seu serviço de proteção de dados.</p>
+        <button>
+			<img src="images/whats.svg" alt="Ícone do whatsapp">
+			Comece já
+		</button>
+	
+	   </section>
+    </main>
+
+	<section id="integrantes">
+		<div>
+			<h1>Integrantes da equipe</h1>
+			<h3>Responsáveis pela sua proteção:</h3>
+			<ul class="channel-list"> 
+				<li>
+					<h5>Analista Mark</h5>
+					<img src="/images/zuk.jpeg" alt="Mark Zuckerberg">
+				</li>
+				<li>
+					<h5>Analista Bill</h5>
+					<img src="/images/bill.jpeg" alt="Bill Gates">
+				</li>
+				<li>
+					<h5>Analista Steve</h5>
+					<img src="/images/steve.jpg" alt="Steve Jobs">
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="form"> 
+		<div>
+			<legend>SAIBA MAIS SOBRE NOSSO SERVIÇO</legend>
+	
+			<div class="name">
+			  <div class="input-wrapper">
+				<label for="name">Nome</label>
+				<input 
+				type="text" 
+				id="nome"/>          
+			  </div>
+	
+			  <div>
+				<label for="sobrename">Sobrenome</label>
+				<input type="text" 
+				id="sobrenome"/>
+			  </div>
+			</div>
+	
+			<div>
+				<label for="event-whatsapp">E-mail <span>(digite um email válido)</span></label>
+				<input type="email" id="email" required />
+			</div>
+	
+			<div>
+				<label for="cidade">Cidade <span>(digite sua cidade)</span></label>
+				<input type="text" id="cidade" required />
+	
+				<label>Estado</label>
+				<select id="estados">
+				  <option value="Distrito Federal">DF</option>
+				  <option value="Goias">GO</option>
+				  <option value="Minas Gerais">MG</option>
+				</select>
+			  </div>
+			  <button>Enviar</button>
+		</div>
+	</section>	
+
+    <div id="line"></div>
+
+    <footer>
+      Para mais informações nos siga no instagram <a href="https://www.instagram.com/uniceub_oficial/" target="_blank">@SistematizaçãoProgramaçaoWEB</a>
+	</footer>
+
+
+  </div>
+
+  <img id="cadeado" src="images/padlock.svg" alt="Imagem de um cadeado para representar a segurança da informação">
+
+  
+</body>
+</html>
